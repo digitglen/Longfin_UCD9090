@@ -1,0 +1,462 @@
+CmdIDWithPhase,CmdCodeHex,PageHexIfPaged,PhaseHex,EncodedType,EncodedHex[HiByte|LoByte],Decoded,DecodedNumeric
+PWM_CONFIG_0,0xE1,,,Block,0x8800000000008000,Pin_ID = 0; Duty Cycle: 0.0 %; Frequency: 0 Hz; Phase: 0.0 deg,
+PWM_CONFIG_1,0xE1,,,Block,0x8800000000008000,Pin_ID = 1; Duty Cycle: 0.0 %; Frequency: 0 Hz; Phase: 0.0 deg,
+PWM_CONFIG_2,0xE1,,,Block,0x8800000000008000,Pin_ID = 2; Duty Cycle: 0.0 %; Frequency: 0 Hz; Phase: 0.0 deg,
+PWM_CONFIG_3,0xE1,,,Block,0x8800000000008000,Pin_ID = 3; Duty Cycle: 0.0 %; Frequency: 0 Hz; Phase: 0.0 deg,
+PWM_CONFIG_4,0xE1,,,Block,0x8800000000008000,Pin_ID = 4; Duty Cycle: 0.0 %; Frequency: 0 Hz; Phase: 0.0 deg,
+PWM_CONFIG_5,0xE1,,,Block,0x8800000000008000,Pin_ID = 5; Duty Cycle: 0.0 %; Frequency: 0 Hz; Phase: 0.0 deg,
+PWM_CONFIG_6,0xE1,,,Block,0x8800000000008000,Pin_ID = 6; Duty Cycle: 0.0 %; Frequency: 0 Hz; Phase: 0.0 deg,
+PWM_CONFIG_7,0xE1,,,Block,0x8800000000008000,Pin_ID = 7; Duty Cycle: 0.0 %; Frequency: 0 Hz; Phase: 0.0 deg,
+PWM_CONFIG_8,0xE1,,,Block,0x8800000000000000,Pin_ID = 8; Duty Cycle: 0.0 %; Frequency: 0 Hz; Phase: 0.0 deg,
+PWM_CONFIG_9,0xE1,,,Block,0x8800000000000000,Pin_ID = 9; Duty Cycle: 0.0 %; Frequency: 0 Hz; Phase: 0.0 deg,
+GPIO_CONFIG_0,0xFB,,,Byte,0x0C,Enable: False; Out_Enable: False; Out_Value: True; Status: True,
+GPIO_CONFIG_1,0xFB,,,Byte,0x0C,Enable: False; Out_Enable: False; Out_Value: True; Status: True,
+GPIO_CONFIG_2,0xFB,,,Byte,0x0C,Enable: False; Out_Enable: False; Out_Value: True; Status: True,
+GPIO_CONFIG_3,0xFB,,,Byte,0x0C,Enable: False; Out_Enable: False; Out_Value: True; Status: True,
+GPIO_CONFIG_4,0xFB,,,Byte,0x0C,Enable: False; Out_Enable: False; Out_Value: True; Status: True,
+GPIO_CONFIG_5,0xFB,,,Byte,0x0C,Enable: False; Out_Enable: False; Out_Value: True; Status: True,
+GPIO_CONFIG_6,0xFB,,,Byte,0x0C,Enable: False; Out_Enable: False; Out_Value: True; Status: True,
+GPIO_CONFIG_7,0xFB,,,Byte,0x0C,Enable: False; Out_Enable: False; Out_Value: True; Status: True,
+GPIO_CONFIG_8,0xFB,,,Byte,0x08,Enable: False; Out_Enable: False; Out_Value: False; Status: True,
+GPIO_CONFIG_9,0xFB,,,Byte,0x08,Enable: False; Out_Enable: False; Out_Value: False; Status: True,
+GPIO_CONFIG_10,0xFB,,,Byte,0x08,Enable: False; Out_Enable: False; Out_Value: False; Status: True,
+GPIO_CONFIG_11,0xFB,,,Byte,0x08,Enable: False; Out_Enable: False; Out_Value: False; Status: True,
+GPIO_CONFIG_12,0xFB,,,Byte,0x00,Enable: False; Out_Enable: False; Out_Value: False; Status: False,
+GPIO_CONFIG_13,0xFB,,,Byte,0x08,Enable: False; Out_Enable: False; Out_Value: False; Status: True,
+GPIO_CONFIG_14,0xFB,,,Byte,0x08,Enable: False; Out_Enable: False; Out_Value: False; Status: True,
+GPIO_CONFIG_15,0xFB,,,Byte,0x0C,Enable: False; Out_Enable: False; Out_Value: True; Status: True,
+GPIO_CONFIG_16,0xFB,,,Byte,0x0C,Enable: False; Out_Enable: False; Out_Value: True; Status: True,
+GPIO_CONFIG_17,0xFB,,,Byte,0x0C,Enable: False; Out_Enable: False; Out_Value: True; Status: True,
+GPIO_CONFIG_18,0xFB,,,Byte,0x0C,Enable: False; Out_Enable: False; Out_Value: True; Status: True,
+GPIO_CONFIG_19,0xFB,,,Byte,0x08,Enable: False; Out_Enable: False; Out_Value: False; Status: True,
+GPIO_CONFIG_20,0xFB,,,Byte,0x08,Enable: False; Out_Enable: False; Out_Value: False; Status: True,
+GPIO_CONFIG_21,0xFB,,,Byte,0x08,Enable: False; Out_Enable: False; Out_Value: False; Status: True,
+GPIO_CONFIG_22,0xFB,,,Byte,0x08,Enable: False; Out_Enable: False; Out_Value: False; Status: True,
+CAPABILITY,0x19,,,Byte,0xB0,Max Bus: 400 Khz; PEC: Yes; SMBALERT#: Yes,
+CONSTANTS,0xDF,,,Block,0x060A080A000B1A0A,Max # Digital Comparators: 6; Max # GPOs: 10; Max # GPIs: 8; Max # Pages: 10; Max # Fans: 0; Max # Monitors: 11; Max # Fault Detail Items: 26; Max # PWMs: 10,
+DEVICE_ID,0xFD,,,Block,0x55434439303930417C322E342E332E303831317C31363039323200,UCD9090A|2.4.3.0811|160922,
+GPI_CONFIG,0xF9,,,Block,0x51A1A9B1414D00000000000000000000000000000000000000000000000000,Inputs: Pin 21 GPIO14 ActiveLow;Pin 24 GPIO15 ActiveLow;Pin 25 GPIO16 ActiveLow;Pin 26 GPIO17 ActiveLow;Pin 22 GPI1_PWM1 ActiveLow;Pin 23 GPI2_PWM2 ActiveHigh;Unassigned;Unassigned;; Fault Responses: Max Glitch Time: 0.0 ms| Fault Response: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| Page Mask: ; Fault Pin Config: Max Glitch Time: 0.0 ms| Fault Response: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| Page Mask for Output: | Page Mask for Responses: ,
+GPO_CONFIG_1,0xF8,,,Block,0x36004C000003FF0000000000000000000000000000,Pin 16 FPWM7_GPIO11 ActiveHigh ActivelyDrivenOutput; RAIL1 ? RAIL2 ? RAIL3 ? RAIL4 ? RAIL5 ? RAIL6 ? RAIL7 ? RAIL8 ? RAIL9 ? RAIL10 [POWER_GOOD],
+GPO_CONFIG_2,0xF8,,,Block,0x3E004C000003FF0000000000000000000000000000,Pin 17 FPWM8_GPIO12 ActiveHigh ActivelyDrivenOutput; RAIL1 ? RAIL2 ? RAIL3 ? RAIL4 ? RAIL5 ? RAIL6 ? RAIL7 ? RAIL8 ? RAIL9 ? RAIL10 [POWER_GOOD],
+GPO_CONFIG_3,0xF8,,,Block,0x9E004C000003FF0000000000000000000000000000,Pin 18 GPIO13 ActiveHigh ActivelyDrivenOutput; RAIL1 ? RAIL2 ? RAIL3 ? RAIL4 ? RAIL5 ? RAIL6 ? RAIL7 ? RAIL8 ? RAIL9 ? RAIL10 [POWER_GOOD],
+GPO_CONFIG_4,0xF8,,,Block,0x000000000000000000000000000000000000000000,Unassigned; No Mask,
+GPO_CONFIG_5,0xF8,,,Block,0x000000000000000000000000000000000000000000,Unassigned; No Mask,
+GPO_CONFIG_6,0xF8,,,Block,0x000000000000000000000000000000000000000000,Unassigned; No Mask,
+GPO_CONFIG_7,0xF8,,,Block,0x000000000000000000000000000000000000000000,Unassigned; No Mask,
+GPO_CONFIG_8,0xF8,,,Block,0x000000000000000000000000000000000000000000,Unassigned; No Mask,
+GPO_CONFIG_9,0xF8,,,Block,0x000000000000000000000000000000000000000000,Unassigned; No Mask,
+GPO_CONFIG_10,0xF8,,,Block,0x000000000000000000000000000000000000000000,Unassigned; No Mask,
+LOGGED_COMMON_PEAKS,0xEE,,,Byte,0x1E,Temp: 30 C,
+LOGGED_FAULT_DETAIL_ENABLES,0xEF,,,Block,0xFFFFFFFFFFFFFFFFFFFFFFFF,"Common: LOG_NOT_EMPTY,SYSTEM_WATCHDOG_TIMEOUT,RESEQUENCE_ERROR,WATCHDOG_TIMEOUT,RESERVED4_OR_SINGLEEVTUPSET,RESERVED5,RESERVED6,RESERVED7; GPI: #1,2,3,4,5,6,7,8; Rail #1: VOUT_OV,VOUT_UV,TON_MAX,IOUT_OC,IOUT_UC,TEMPERATURE_OT,SEQ_ON_TIMEOUT,SEQ_OFF_TIMEOUT; Rail #2: VOUT_OV,VOUT_UV,TON_MAX,IOUT_OC,IOUT_UC,TEMPERATURE_OT,SEQ_ON_TIMEOUT,SEQ_OFF_TIMEOUT; Rail #3: VOUT_OV,VOUT_UV,TON_MAX,IOUT_OC,IOUT_UC,TEMPERATURE_OT,SEQ_ON_TIMEOUT,SEQ_OFF_TIMEOUT; Rail #4: VOUT_OV,VOUT_UV,TON_MAX,IOUT_OC,IOUT_UC,TEMPERATURE_OT,SEQ_ON_TIMEOUT,SEQ_OFF_TIMEOUT; Rail #5: VOUT_OV,VOUT_UV,TON_MAX,IOUT_OC,IOUT_UC,TEMPERATURE_OT,SEQ_ON_TIMEOUT,SEQ_OFF_TIMEOUT; Rail #6: VOUT_OV,VOUT_UV,TON_MAX,IOUT_OC,IOUT_UC,TEMPERATURE_OT,SEQ_ON_TIMEOUT,SEQ_OFF_TIMEOUT; Rail #7: VOUT_OV,VOUT_UV,TON_MAX,IOUT_OC,IOUT_UC,TEMPERATURE_OT,SEQ_ON_TIMEOUT,SEQ_OFF_TIMEOUT; Rail #8: VOUT_OV,VOUT_UV,TON_MAX,IOUT_OC,IOUT_UC,TEMPERATURE_OT,SEQ_ON_TIMEOUT,SEQ_OFF_TIMEOUT; Rail #9: VOUT_OV,VOUT_UV,TON_MAX,IOUT_OC,IOUT_UC,TEMPERATURE_OT,SEQ_ON_TIMEOUT,SEQ_OFF_TIMEOUT; Rail #10: VOUT_OV,VOUT_UV,TON_MAX,IOUT_OC,IOUT_UC,TEMPERATURE_OT,SEQ_ON_TIMEOUT,SEQ_OFF_TIMEOUT",
+LOGGED_FAULTS,0xEA,,,Block,0x000000000000000000000000,Common: <EMPTY>; GPI: <empty>; Rail #1: <EMPTY>; Rail #2: <EMPTY>; Rail #3: <EMPTY>; Rail #4: <EMPTY>; Rail #5: <EMPTY>; Rail #6: <EMPTY>; Rail #7: <EMPTY>; Rail #8: <EMPTY>; Rail #9: <EMPTY>; Rail #10: <EMPTY>,
+MFR_DATE,0x9D,,,Block,0x323030343039,200409,
+MFR_ID,0x99,,,Block,0x56414E55,VANU,
+MFR_LOCATION,0x9C,,,Block,0x3031383534,01854,
+MFR_MODEL,0x9A,,,Block,0x4C4F4E4746494E,LONGFIN,
+MFR_REVISION,0x9B,,,Block,0x312E30,1.0,
+MFR_SERIAL,0x9E,,,Block,0x303030303030,000000,
+MISC_CONFIG,0xFC,,,Block,0x00000000,Time Between Resequences: 0 msec; Resequence Abort: no; Max Resequences: 1; FIFO Mode: Disabled; Brownout Enable: no; Disable all logging: no; Resequence Rails Mask: 0x00 [0000000000000000b],
+MONITOR_CONFIG,0xD5,,,Block,0x2021222324252627282900,"Pin 1 MON1: Rail #1, Type Voltage; Pin 2 MON2: Rail #2, Type Voltage; Pin 38 MON3: Rail #3, Type Voltage; Pin 39 MON4: Rail #4, Type Voltage; Pin 40 MON5: Rail #5, Type Voltage; Pin 41 MON6: Rail #6, Type Voltage; Pin 42 MON7: Rail #7, Type Voltage; Pin 45 MON8: Rail #8, Type Voltage; Pin 46 MON9: Rail #9, Type Voltage; Pin 48 MON10: Rail #10, Type Voltage; Pin 37 MON11: Not Assigned",
+NUM_PAGES,0xD6,,,Byte,0x0A,10,
+PIN_SELECTED_RAIL_STATES,0xDD,,,Block,0x000000000000000000000000000000000003,"State 0: Enabled=No, Turn Off Mode=ImmediateOff, Rails States= Rail #1 Off, Rail #2 Off, Rail #3 Off, Rail #4 Off, Rail #5 Off, Rail #6 Off, Rail #7 Off, Rail #8 Off, Rail #9 Off, Rail #10 Off; State 1: Enabled=No, Turn Off Mode=ImmediateOff, Rails States= Rail #1 Off, Rail #2 Off, Rail #3 Off, Rail #4 Off, Rail #5 Off, Rail #6 Off, Rail #7 Off, Rail #8 Off, Rail #9 Off, Rail #10 Off; State 2: Enabled=No, Turn Off Mode=ImmediateOff, Rails States= Rail #1 Off, Rail #2 Off, Rail #3 Off, Rail #4 Off, Rail #5 Off, Rail #6 Off, Rail #7 Off, Rail #8 Off, Rail #9 Off, Rail #10 Off; State 3: Enabled=No, Turn Off Mode=ImmediateOff, Rails States= Rail #1 Off, Rail #2 Off, Rail #3 Off, Rail #4 Off, Rail #5 Off, Rail #6 Off, Rail #7 Off, Rail #8 Off, Rail #9 Off, Rail #10 Off; State 4: Enabled=No, Turn Off Mode=ImmediateOff, Rails States= Rail #1 Off, Rail #2 Off, Rail #3 Off, Rail #4 Off, Rail #5 Off, Rail #6 Off, Rail #7 Off, Rail #8 Off, Rail #9 Off, Rail #10 Off; State 5: Enabled=No, Turn Off Mode=ImmediateOff, Rails States= Rail #1 Off, Rail #2 Off, Rail #3 Off, Rail #4 Off, Rail #5 Off, Rail #6 Off, Rail #7 Off, Rail #8 Off, Rail #9 Off, Rail #10 Off; State 6: Enabled=No, Turn Off Mode=ImmediateOff, Rails States= Rail #1 Off, Rail #2 Off, Rail #3 Off, Rail #4 Off, Rail #5 Off, Rail #6 Off, Rail #7 Off, Rail #8 Off, Rail #9 Off, Rail #10 Off; State 7: Enabled=No, Turn Off Mode=ImmediateOff, Rails States= Rail #1 On, Rail #2 On, Rail #3 Off, Rail #4 Off, Rail #5 Off, Rail #6 Off, Rail #7 Off, Rail #8 Off, Rail #9 Off, Rail #10 Off",
+PMBUS_REVISION,0x98,,,Byte,0x21,"1.1,1.1 - Part I: 1.1, Part II: 1.1",
+READ_TEMPERATURE_1,0x8D,,,Word,0xDBCA,30 C,30.3125
+RESET_COUNT,0xDC,,,Word,0x0000,0 ,0
+RUN_TIME_CLOCK,0xD7,,,Block,0x02671AB800000000,"0 Days, 11:11:51.480",
+RUN_TIME_CLOCK_TRIM,0xD8,,,Word,0x8800,0.00 %,0
+SECURITY_BIT_MASK,0xF2,,,Block,0x0000000000000000000000000000000000000000000000000000000000000000,No commands write protected,
+STATUS_BYTE,0x78,,,Byte,0x01,NONE_OF_ABOVE,
+STATUS_CML,0x7E,,,Byte,0x00,<EMPTY>,
+STATUS_WORD,0x79,,,Word,0x9001,"NONE_OF_ABOVE,MFR,VOUT",
+SYSTEM_RESET_CONFIG,0xD2,,,Block,0x000020070006D0595B,"Enabled; Reset Pin: 11, Active Low, Open Drain; De-assert When Power-Good: yes; Assert when NOT Power-Good: yes; Assert when Watchdog Timeout: no; Delay Time: 7 msec; Rails: <None>Pulse Time: 0 msec; GPI Tracking: Enable = True; GPI Number = 6; GPI Tracking Release Delay = 200 msec; Use Delay Time When Watchdog Timeout",
+SYSTEM_WATCHDOG_CONFIG,0xD3,,,Block,0x00000000,Disabled,
+VOUT_MODE,0x20,0x00,,Byte,0x13,EXP =-13,
+FAULT_RESPONSES,0xE9,0x00,,Block,0x808000000080000000,Retry Time: 0 msec| Max Volt Glitch Time: 0.0 msec| Max Other Glitch Time: 0 msec| VOUT_OV: Resequence: Disabled; Glitch filter: Disabled; Response: Shut down immediately; Restart: Do not restart| VOUT_UV: Resequence: Disabled; Glitch filter: Disabled; Response: Shut down immediately; Restart: Do not restart| IOUT_OC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_UC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| OT: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| TON_MAX: Resequence: Disabled; Glitch filter: Disabled; Response: Shut down immediately; Restart: Do not restart,
+IOUT_CAL_GAIN,0x38,0x00,,Word,0xD280,10.0000 mohm,10
+IOUT_CAL_OFFSET,0x39,0x00,,Word,0x8000,0.000000 A,0
+IOUT_OC_FAULT_LIMIT,0x46,0x00,,Word,0x8000,0.000 A,0
+IOUT_OC_WARN_LIMIT,0x4A,0x00,,Word,0x8000,0.000 A,0
+IOUT_UC_FAULT_LIMIT,0x4B,0x00,,Word,0x8000,0.000 A,0
+LOGGED_PAGE_PEAKS,0xED,0x00,,Block,0x007C390080,"Voltage: 1.796 V, Current: 0.00 A, Temp: 0 C",
+MARGIN_CONFIG,0xF5,0x00,,Byte,0x00,"Mode: Disabled; Increase Duty Cycle decreases Voltage; Ignore Faults: False; PWM Pin: ID 0, # 10 FPWM1_GPIO5",
+MFR_STATUS,0xF3,0x00,,Block,0x00000280,"INVALID_LOGS,STORE_DEFAULT_ALL_DONE",
+ON_OFF_CONFIG,0x02,0x00,,Byte,0x00,Mode: Always Converting,
+OPERATION,0x01,0x00,,Byte,0x00,Unit: ImmediateOff; Margin: None,
+OT_FAULT_LIMIT,0x4F,0x00,,Word,0xF3FC,255 C,255
+OT_WARN_LIMIT,0x51,0x00,,Word,0xF3FC,255 C,255
+POWER_GOOD_OFF,0x5F,0x00,,Word,0x36B8,1.710 V,1.71
+POWER_GOOD_ON,0x5E,0x00,,Word,0x37DF,1.746 V,1.746
+READ_IOUT,0x8C,0x00,,Word,0x8000,0.00 A,0
+READ_RAIL_STATE,0xB9,0x00,,Block,0x05,REGULATION,
+READ_TEMPERATURE_2,0x8E,0x00,,Word,0xDBCA,30 C,30.3125
+READ_VOUT,0x8B,0x00,,Word,0x3936,1.788 V,1.788
+SEQ_CONFIG,0xF6,0x00,,Block,0x7E000000000000000000000003FC0000,"Rail On Dep: <None> | GPI On Dep: <None> | GPO On Dep: <None> | Rail Off Dep: <None> | GPI Off Dep: <None> | GPO Off Dep: <None> | Fault Dep: Rail #3,4,5,6,7,8,9,10 | Enable: Pin 4 GPIO1 ActiveHigh ActivelyDrivenOutput; Seq On Timeout: 0 / Wait Indefinitely; Seq Off Timeout: 0 / Wait Indefinitely",
+STATUS_IOUT,0x7B,0x00,,Byte,0x00,<EMPTY>,
+STATUS_TEMPERATURE,0x7D,0x00,,Byte,0x00,<EMPTY>,
+STATUS_VOUT,0x7A,0x00,,Byte,0x00,<EMPTY>,
+TEMPERATURE_CAL_GAIN,0xE4,0x00,,Word,0xEB20,100.0 C/V,100
+TEMPERATURE_CAL_OFFSET,0xE5,0x00,,Word,0x8000,0.00 C,0
+TOFF_DELAY,0x64,0x00,,Word,0x8000,0.0 ms,0
+TOFF_MAX_WARN_LIMIT,0x66,0x00,,Word,0x7FFF,<No Limit>,
+TON_DELAY,0x60,0x00,,Word,0x8000,0.0 ms,0
+TON_MAX_FAULT_LIMIT,0x62,0x00,,Word,0x8000,<No Limit>,0
+VOUT_CAL_MONITOR,0xD1,0x00,,Word,0x0000,0.000 V,0
+VOUT_COMMAND,0x21,0x00,,Word,0x399A,1.800 V,1.8
+VOUT_MARGIN_HIGH,0x25,0x00,,Word,0x3B54,1.854 V,1.854
+VOUT_MARGIN_LOW,0x26,0x00,,Word,0x37DF,1.746 V,1.746
+VOUT_OV_FAULT_LIMIT,0x40,0x00,,Word,0x3DA2,1.926 V,1.926
+VOUT_OV_WARN_LIMIT,0x42,0x00,,Word,0x3C7B,1.890 V,1.89
+VOUT_SCALE_MONITOR,0x2A,0x00,,Word,0xBA00,1.000 ,1
+VOUT_UV_FAULT_LIMIT,0x44,0x00,,Word,0x3591,1.674 V,1.674
+VOUT_UV_WARN_LIMIT,0x43,0x00,,Word,0x36B8,1.710 V,1.71
+VOUT_MODE,0x20,0x01,,Byte,0x14,EXP =-12,
+FAULT_RESPONSES,0xE9,0x01,,Block,0x000000000000000000,Retry Time: 0 msec| Max Volt Glitch Time: 0.0 msec| Max Other Glitch Time: 0 msec| VOUT_OV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| VOUT_UV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_OC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_UC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| OT: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| TON_MAX: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A,
+IOUT_CAL_GAIN,0x38,0x01,,Word,0xD280,10.0000 mohm,10
+IOUT_CAL_OFFSET,0x39,0x01,,Word,0x8000,0.000000 A,0
+IOUT_OC_FAULT_LIMIT,0x46,0x01,,Word,0x8000,0.000 A,0
+IOUT_OC_WARN_LIMIT,0x4A,0x01,,Word,0x8000,0.000 A,0
+IOUT_UC_FAULT_LIMIT,0x4B,0x01,,Word,0x8000,0.000 A,0
+LOGGED_PAGE_PEAKS,0xED,0x01,,Block,0x00053C0080,"Voltage: 3.751 V, Current: 0.00 A, Temp: 0 C",
+MARGIN_CONFIG,0xF5,0x01,,Byte,0x00,"Mode: Disabled; Increase Duty Cycle decreases Voltage; Ignore Faults: False; PWM Pin: ID 0, # 10 FPWM1_GPIO5",
+MFR_STATUS,0xF3,0x01,,Block,0x00000080,INVALID_LOGS,
+ON_OFF_CONFIG,0x02,0x01,,Byte,0x00,Mode: Always Converting,
+OPERATION,0x01,0x01,,Byte,0x00,Unit: ImmediateOff; Margin: None,
+OT_FAULT_LIMIT,0x4F,0x01,,Word,0xF3FC,255 C,255
+OT_WARN_LIMIT,0x51,0x01,,Word,0xF3FC,255 C,255
+POWER_GOOD_OFF,0x5F,0x01,,Word,0x39C3,3.610 V,3.61
+POWER_GOOD_ON,0x5E,0x01,,Word,0x3AFA,3.686 V,3.686
+READ_IOUT,0x8C,0x01,,Word,0x8000,0.00 A,0
+READ_RAIL_STATE,0xB9,0x01,,Block,0x05,REGULATION,
+READ_TEMPERATURE_2,0x8E,0x01,,Word,0xDBCB,30 C,30.34375
+READ_VOUT,0x8B,0x01,,Word,0x3BE9,3.744 V,3.744
+SEQ_CONFIG,0xF6,0x01,,Block,0x86000000000000000000000003F00000,"Rail On Dep: <None> | GPI On Dep: <None> | GPO On Dep: <None> | Rail Off Dep: <None> | GPI Off Dep: <None> | GPO Off Dep: <None> | Fault Dep: Rail #5,6,7,8,9,10 | Enable: Pin 5 GPIO2 ActiveHigh ActivelyDrivenOutput; Seq On Timeout: 0 / Wait Indefinitely; Seq Off Timeout: 0 / Wait Indefinitely",
+STATUS_IOUT,0x7B,0x01,,Byte,0x00,<EMPTY>,
+STATUS_TEMPERATURE,0x7D,0x01,,Byte,0x00,<EMPTY>,
+STATUS_VOUT,0x7A,0x01,,Byte,0x00,<EMPTY>,
+TEMPERATURE_CAL_GAIN,0xE4,0x01,,Word,0xEB20,100.0 C/V,100
+TEMPERATURE_CAL_OFFSET,0xE5,0x01,,Word,0x8000,0.00 C,0
+TOFF_DELAY,0x64,0x01,,Word,0x8000,0.0 ms,0
+TOFF_MAX_WARN_LIMIT,0x66,0x01,,Word,0x7FFF,<No Limit>,
+TON_DELAY,0x60,0x01,,Word,0x8000,0.0 ms,0
+TON_MAX_FAULT_LIMIT,0x62,0x01,,Word,0x8000,<No Limit>,0
+VOUT_CAL_MONITOR,0xD1,0x01,,Word,0x0000,0.000 V,0
+VOUT_COMMAND,0x21,0x01,,Word,0x3CCD,3.800 V,3.8
+VOUT_MARGIN_HIGH,0x25,0x01,,Word,0x3EA0,3.914 V,3.914
+VOUT_MARGIN_LOW,0x26,0x01,,Word,0x3AFA,3.686 V,3.686
+VOUT_OV_FAULT_LIMIT,0x40,0x01,,Word,0x410E,4.066 V,4.066
+VOUT_OV_WARN_LIMIT,0x42,0x01,,Word,0x3FD7,3.990 V,3.99
+VOUT_SCALE_MONITOR,0x2A,0x01,,Word,0xABA4,0.455 ,0.455
+VOUT_UV_FAULT_LIMIT,0x44,0x01,,Word,0x388B,3.534 V,3.534
+VOUT_UV_WARN_LIMIT,0x43,0x01,,Word,0x39C3,3.610 V,3.61
+VOUT_MODE,0x20,0x02,,Byte,0x12,EXP =-14,
+FAULT_RESPONSES,0xE9,0x02,,Block,0x000000000000000000,Retry Time: 0 msec| Max Volt Glitch Time: 0.0 msec| Max Other Glitch Time: 0 msec| VOUT_OV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| VOUT_UV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_OC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_UC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| OT: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| TON_MAX: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A,
+IOUT_CAL_GAIN,0x38,0x02,,Word,0xD280,10.0000 mohm,10
+IOUT_CAL_OFFSET,0x39,0x02,,Word,0x8000,0.000000 A,0
+IOUT_OC_FAULT_LIMIT,0x46,0x02,,Word,0x8000,0.000 A,0
+IOUT_OC_WARN_LIMIT,0x4A,0x02,,Word,0x8000,0.000 A,0
+IOUT_UC_FAULT_LIMIT,0x4B,0x02,,Word,0x8000,0.000 A,0
+LOGGED_PAGE_PEAKS,0xED,0x02,,Block,0x006C400080,"Voltage: 1.007 V, Current: 0.00 A, Temp: 0 C",
+MARGIN_CONFIG,0xF5,0x02,,Byte,0x00,"Mode: Disabled; Increase Duty Cycle decreases Voltage; Ignore Faults: False; PWM Pin: ID 0, # 10 FPWM1_GPIO5",
+MFR_STATUS,0xF3,0x02,,Block,0x00000080,INVALID_LOGS,
+ON_OFF_CONFIG,0x02,0x02,,Byte,0x00,Mode: Always Converting,
+OPERATION,0x01,0x02,,Byte,0x00,Unit: ImmediateOff; Margin: None,
+OT_FAULT_LIMIT,0x4F,0x02,,Word,0xF3FC,255 C,255
+OT_WARN_LIMIT,0x51,0x02,,Word,0xF3FC,255 C,255
+POWER_GOOD_OFF,0x5F,0x02,,Word,0x3CCD,0.950 V,0.95
+POWER_GOOD_ON,0x5E,0x02,,Word,0x3E14,0.970 V,0.97
+READ_IOUT,0x8C,0x02,,Word,0x8000,0.00 A,0
+READ_RAIL_STATE,0xB9,0x02,,Block,0x05,REGULATION,
+READ_TEMPERATURE_2,0x8E,0x02,,Word,0xDBCB,30 C,30.34375
+READ_VOUT,0x8B,0x02,,Word,0x4030,1.003 V,1.003
+SEQ_CONFIG,0xF6,0x02,,Block,0x8E000000000000000001000003F80000,"Rail On Dep: Rail #1 | GPI On Dep: <None> | GPO On Dep: <None> | Rail Off Dep: <None> | GPI Off Dep: <None> | GPO Off Dep: <None> | Fault Dep: Rail #4,5,6,7,8,9,10 | Enable: Pin 6 GPIO3 ActiveHigh ActivelyDrivenOutput; Seq On Timeout: 0 / Wait Indefinitely; Seq Off Timeout: 0 / Wait Indefinitely",
+STATUS_IOUT,0x7B,0x02,,Byte,0x00,<EMPTY>,
+STATUS_TEMPERATURE,0x7D,0x02,,Byte,0x00,<EMPTY>,
+STATUS_VOUT,0x7A,0x02,,Byte,0x00,<EMPTY>,
+TEMPERATURE_CAL_GAIN,0xE4,0x02,,Word,0xEB20,100.0 C/V,100
+TEMPERATURE_CAL_OFFSET,0xE5,0x02,,Word,0x8000,0.00 C,0
+TOFF_DELAY,0x64,0x02,,Word,0x8000,0.0 ms,0
+TOFF_MAX_WARN_LIMIT,0x66,0x02,,Word,0x7FFF,<No Limit>,
+TON_DELAY,0x60,0x02,,Word,0xEB20,100.0 ms,100
+TON_MAX_FAULT_LIMIT,0x62,0x02,,Word,0x8000,<No Limit>,0
+VOUT_CAL_MONITOR,0xD1,0x02,,Word,0x0000,0.000 V,0
+VOUT_COMMAND,0x21,0x02,,Word,0x4000,1.000 V,1
+VOUT_MARGIN_HIGH,0x25,0x02,,Word,0x41EC,1.030 V,1.03
+VOUT_MARGIN_LOW,0x26,0x02,,Word,0x3E14,0.970 V,0.97
+VOUT_OV_FAULT_LIMIT,0x40,0x02,,Word,0x4333,1.050 V,1.05
+VOUT_OV_WARN_LIMIT,0x42,0x02,,Word,0x428F,1.040 V,1.04
+VOUT_SCALE_MONITOR,0x2A,0x02,,Word,0xBA00,1.000 ,1
+VOUT_UV_FAULT_LIMIT,0x44,0x02,,Word,0x3CCD,0.950 V,0.95
+VOUT_UV_WARN_LIMIT,0x43,0x02,,Word,0x3D71,0.960 V,0.96
+VOUT_MODE,0x20,0x03,,Byte,0x12,EXP =-14,
+FAULT_RESPONSES,0xE9,0x03,,Block,0x000000000000000000,Retry Time: 0 msec| Max Volt Glitch Time: 0.0 msec| Max Other Glitch Time: 0 msec| VOUT_OV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| VOUT_UV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_OC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_UC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| OT: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| TON_MAX: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A,
+IOUT_CAL_GAIN,0x38,0x03,,Word,0xD280,10.0000 mohm,10
+IOUT_CAL_OFFSET,0x39,0x03,,Word,0x8000,0.000000 A,0
+IOUT_OC_FAULT_LIMIT,0x46,0x03,,Word,0x8000,0.000 A,0
+IOUT_OC_WARN_LIMIT,0x4A,0x03,,Word,0x8000,0.000 A,0
+IOUT_UC_FAULT_LIMIT,0x4B,0x03,,Word,0x8000,0.000 A,0
+LOGGED_PAGE_PEAKS,0xED,0x03,,Block,0x0060400080,"Voltage: 1.006 V, Current: 0.00 A, Temp: 0 C",
+MARGIN_CONFIG,0xF5,0x03,,Byte,0x00,"Mode: Disabled; Increase Duty Cycle decreases Voltage; Ignore Faults: False; PWM Pin: ID 0, # 10 FPWM1_GPIO5",
+MFR_STATUS,0xF3,0x03,,Block,0x00000080,INVALID_LOGS,
+ON_OFF_CONFIG,0x02,0x03,,Byte,0x00,Mode: Always Converting,
+OPERATION,0x01,0x03,,Byte,0x00,Unit: ImmediateOff; Margin: None,
+OT_FAULT_LIMIT,0x4F,0x03,,Word,0xF3FC,255 C,255
+OT_WARN_LIMIT,0x51,0x03,,Word,0xF3FC,255 C,255
+POWER_GOOD_OFF,0x5F,0x03,,Word,0x3CCD,0.950 V,0.95
+POWER_GOOD_ON,0x5E,0x03,,Word,0x3E66,0.975 V,0.975
+READ_IOUT,0x8C,0x03,,Word,0x8000,0.00 A,0
+READ_RAIL_STATE,0xB9,0x03,,Block,0x05,REGULATION,
+READ_TEMPERATURE_2,0x8E,0x03,,Word,0xDBCB,30 C,30.34375
+READ_VOUT,0x8B,0x03,,Word,0x404C,1.005 V,1.005
+SEQ_CONFIG,0xF6,0x03,,Block,0x96000000000000000001000103F40000,"Rail On Dep: Rail #1 | GPI On Dep: <None> | GPO On Dep: <None> | Rail Off Dep: Rail #1 | GPI Off Dep: <None> | GPO Off Dep: <None> | Fault Dep: Rail #3,5,6,7,8,9,10 | Enable: Pin 7 GPIO4 ActiveHigh ActivelyDrivenOutput; Seq On Timeout: 0 / Wait Indefinitely; Seq Off Timeout: 0 / Wait Indefinitely",
+STATUS_IOUT,0x7B,0x03,,Byte,0x00,<EMPTY>,
+STATUS_TEMPERATURE,0x7D,0x03,,Byte,0x00,<EMPTY>,
+STATUS_VOUT,0x7A,0x03,,Byte,0x20,VOUT_UV_WARN,
+TEMPERATURE_CAL_GAIN,0xE4,0x03,,Word,0xEB20,100.0 C/V,100
+TEMPERATURE_CAL_OFFSET,0xE5,0x03,,Word,0x8000,0.00 C,0
+TOFF_DELAY,0x64,0x03,,Word,0x8000,0.0 ms,0
+TOFF_MAX_WARN_LIMIT,0x66,0x03,,Word,0x7FFF,<No Limit>,
+TON_DELAY,0x60,0x03,,Word,0xEB20,100.0 ms,100
+TON_MAX_FAULT_LIMIT,0x62,0x03,,Word,0x8000,<No Limit>,0
+VOUT_CAL_MONITOR,0xD1,0x03,,Word,0x0000,0.000 V,0
+VOUT_COMMAND,0x21,0x03,,Word,0x4000,1.000 V,1
+VOUT_MARGIN_HIGH,0x25,0x03,,Word,0x40A4,1.010 V,1.01
+VOUT_MARGIN_LOW,0x26,0x03,,Word,0x3F5C,0.990 V,0.99
+VOUT_OV_FAULT_LIMIT,0x40,0x03,,Word,0x41EC,1.030 V,1.03
+VOUT_OV_WARN_LIMIT,0x42,0x03,,Word,0x4148,1.020 V,1.02
+VOUT_SCALE_MONITOR,0x2A,0x03,,Word,0xBA00,1.000 ,1
+VOUT_UV_FAULT_LIMIT,0x44,0x03,,Word,0x3E14,0.970 V,0.97
+VOUT_UV_WARN_LIMIT,0x43,0x03,,Word,0x3EB8,0.980 V,0.98
+VOUT_MODE,0x20,0x04,,Byte,0x12,EXP =-14,
+FAULT_RESPONSES,0xE9,0x04,,Block,0x000000000000000000,Retry Time: 0 msec| Max Volt Glitch Time: 0.0 msec| Max Other Glitch Time: 0 msec| VOUT_OV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| VOUT_UV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_OC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_UC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| OT: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| TON_MAX: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A,
+IOUT_CAL_GAIN,0x38,0x04,,Word,0xD280,10.0000 mohm,10
+IOUT_CAL_OFFSET,0x39,0x04,,Word,0x8000,0.000000 A,0
+IOUT_OC_FAULT_LIMIT,0x46,0x04,,Word,0x8000,0.000 A,0
+IOUT_OC_WARN_LIMIT,0x4A,0x04,,Word,0x8000,0.000 A,0
+IOUT_UC_FAULT_LIMIT,0x4B,0x04,,Word,0x8000,0.000 A,0
+LOGGED_PAGE_PEAKS,0xED,0x04,,Block,0x001C4D0080,"Voltage: 1.205 V, Current: 0.00 A, Temp: 0 C",
+MARGIN_CONFIG,0xF5,0x04,,Byte,0x00,"Mode: Disabled; Increase Duty Cycle decreases Voltage; Ignore Faults: False; PWM Pin: ID 0, # 10 FPWM1_GPIO5",
+MFR_STATUS,0xF3,0x04,,Block,0x00000080,INVALID_LOGS,
+ON_OFF_CONFIG,0x02,0x04,,Byte,0x00,Mode: Always Converting,
+OPERATION,0x01,0x04,,Byte,0x00,Unit: ImmediateOff; Margin: None,
+OT_FAULT_LIMIT,0x4F,0x04,,Word,0xF3FC,255 C,255
+OT_WARN_LIMIT,0x51,0x04,,Word,0xF3FC,255 C,255
+POWER_GOOD_OFF,0x5F,0x04,,Word,0x48F6,1.140 V,1.14
+POWER_GOOD_ON,0x5E,0x04,,Word,0x4A7F,1.164 V,1.164
+READ_IOUT,0x8C,0x04,,Word,0x8000,0.00 A,0
+READ_RAIL_STATE,0xB9,0x04,,Block,0x05,REGULATION,
+READ_TEMPERATURE_2,0x8E,0x04,,Word,0xDBCC,30 C,30.375
+READ_VOUT,0x8B,0x04,,Word,0x4CE0,1.201 V,1.201
+SEQ_CONFIG,0xF6,0x04,,Block,0x0600000000000000000E000C03EC0000,"Rail On Dep: Rail #2,3,4 | GPI On Dep: <None> | GPO On Dep: <None> | Rail Off Dep: Rail #3,4 | GPI Off Dep: <None> | GPO Off Dep: <None> | Fault Dep: Rail #3,4,6,7,8,9,10 | Enable: Pin 10 FPWM1_GPIO5 ActiveHigh ActivelyDrivenOutput; Seq On Timeout: 0 / Wait Indefinitely; Seq Off Timeout: 0 / Wait Indefinitely",
+STATUS_IOUT,0x7B,0x04,,Byte,0x00,<EMPTY>,
+STATUS_TEMPERATURE,0x7D,0x04,,Byte,0x00,<EMPTY>,
+STATUS_VOUT,0x7A,0x04,,Byte,0x20,VOUT_UV_WARN,
+TEMPERATURE_CAL_GAIN,0xE4,0x04,,Word,0xEB20,100.0 C/V,100
+TEMPERATURE_CAL_OFFSET,0xE5,0x04,,Word,0x8000,0.00 C,0
+TOFF_DELAY,0x64,0x04,,Word,0x8000,0.0 ms,0
+TOFF_MAX_WARN_LIMIT,0x66,0x04,,Word,0x7FFF,<No Limit>,
+TON_DELAY,0x60,0x04,,Word,0xEB20,100.0 ms,100
+TON_MAX_FAULT_LIMIT,0x62,0x04,,Word,0x8000,<No Limit>,0
+VOUT_CAL_MONITOR,0xD1,0x04,,Word,0x0000,0.000 V,0
+VOUT_COMMAND,0x21,0x04,,Word,0x4CCD,1.200 V,1.2
+VOUT_MARGIN_HIGH,0x25,0x04,,Word,0x4DF4,1.218 V,1.218
+VOUT_MARGIN_LOW,0x26,0x04,,Word,0x4BA6,1.182 V,1.182
+VOUT_OV_FAULT_LIMIT,0x40,0x04,,Word,0x5106,1.266 V,1.266
+VOUT_OV_WARN_LIMIT,0x42,0x04,,Word,0x4EB8,1.230 V,1.23
+VOUT_SCALE_MONITOR,0x2A,0x04,,Word,0xBA00,1.000 ,1
+VOUT_UV_FAULT_LIMIT,0x44,0x04,,Word,0x4893,1.134 V,1.134
+VOUT_UV_WARN_LIMIT,0x43,0x04,,Word,0x4AE1,1.170 V,1.17
+VOUT_MODE,0x20,0x05,,Byte,0x14,EXP =-12,
+FAULT_RESPONSES,0xE9,0x05,,Block,0x000000000000000000,Retry Time: 0 msec| Max Volt Glitch Time: 0.0 msec| Max Other Glitch Time: 0 msec| VOUT_OV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| VOUT_UV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_OC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_UC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| OT: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| TON_MAX: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A,
+IOUT_CAL_GAIN,0x38,0x05,,Word,0xD280,10.0000 mohm,10
+IOUT_CAL_OFFSET,0x39,0x05,,Word,0x8000,0.000000 A,0
+IOUT_OC_FAULT_LIMIT,0x46,0x05,,Word,0x8000,0.000 A,0
+IOUT_OC_WARN_LIMIT,0x4A,0x05,,Word,0x8000,0.000 A,0
+IOUT_UC_FAULT_LIMIT,0x4B,0x05,,Word,0x8000,0.000 A,0
+LOGGED_PAGE_PEAKS,0xED,0x05,,Block,0x00C81C0080,"Voltage: 1.799 V, Current: 0.00 A, Temp: 0 C",
+MARGIN_CONFIG,0xF5,0x05,,Byte,0x00,"Mode: Disabled; Increase Duty Cycle decreases Voltage; Ignore Faults: False; PWM Pin: ID 0, # 10 FPWM1_GPIO5",
+MFR_STATUS,0xF3,0x05,,Block,0x00000080,INVALID_LOGS,
+ON_OFF_CONFIG,0x02,0x05,,Byte,0x00,Mode: Always Converting,
+OPERATION,0x01,0x05,,Byte,0x00,Unit: ImmediateOff; Margin: None,
+OT_FAULT_LIMIT,0x4F,0x05,,Word,0xF3FC,255 C,255
+OT_WARN_LIMIT,0x51,0x05,,Word,0xF3FC,255 C,255
+POWER_GOOD_OFF,0x5F,0x05,,Word,0x1B5C,1.710 V,1.71
+POWER_GOOD_ON,0x5E,0x05,,Word,0x1BF0,1.746 V,1.746
+READ_IOUT,0x8C,0x05,,Word,0x8000,0.00 A,0
+READ_RAIL_STATE,0xB9,0x05,,Block,0x05,REGULATION,
+READ_TEMPERATURE_2,0x8E,0x05,,Word,0xDBCC,30 C,30.375
+READ_VOUT,0x8B,0x05,,Word,0x1CB6,1.794 V,1.794
+SEQ_CONFIG,0xF6,0x05,,Block,0x0E00000000000000000E000C03DC0000,"Rail On Dep: Rail #2,3,4 | GPI On Dep: <None> | GPO On Dep: <None> | Rail Off Dep: Rail #3,4 | GPI Off Dep: <None> | GPO Off Dep: <None> | Fault Dep: Rail #3,4,5,7,8,9,10 | Enable: Pin 11 FPWM2_GPIO6 ActiveHigh ActivelyDrivenOutput; Seq On Timeout: 0 / Wait Indefinitely; Seq Off Timeout: 0 / Wait Indefinitely",
+STATUS_IOUT,0x7B,0x05,,Byte,0x00,<EMPTY>,
+STATUS_TEMPERATURE,0x7D,0x05,,Byte,0x00,<EMPTY>,
+STATUS_VOUT,0x7A,0x05,,Byte,0x00,<EMPTY>,
+TEMPERATURE_CAL_GAIN,0xE4,0x05,,Word,0xEB20,100.0 C/V,100
+TEMPERATURE_CAL_OFFSET,0xE5,0x05,,Word,0x8000,0.00 C,0
+TOFF_DELAY,0x64,0x05,,Word,0x8000,0.0 ms,0
+TOFF_MAX_WARN_LIMIT,0x66,0x05,,Word,0x7FFF,<No Limit>,
+TON_DELAY,0x60,0x05,,Word,0xEB20,100.0 ms,100
+TON_MAX_FAULT_LIMIT,0x62,0x05,,Word,0x8000,<No Limit>,0
+VOUT_CAL_MONITOR,0xD1,0x05,,Word,0x0000,0.000 V,0
+VOUT_COMMAND,0x21,0x05,,Word,0x1CCD,1.800 V,1.8
+VOUT_MARGIN_HIGH,0x25,0x05,,Word,0x1DAA,1.854 V,1.854
+VOUT_MARGIN_LOW,0x26,0x05,,Word,0x1BF0,1.746 V,1.746
+VOUT_OV_FAULT_LIMIT,0x40,0x05,,Word,0x1ED1,1.926 V,1.926
+VOUT_OV_WARN_LIMIT,0x42,0x05,,Word,0x1E3D,1.890 V,1.89
+VOUT_SCALE_MONITOR,0x2A,0x05,,Word,0xBA00,1.000 ,1
+VOUT_UV_FAULT_LIMIT,0x44,0x05,,Word,0x1AC9,1.674 V,1.674
+VOUT_UV_WARN_LIMIT,0x43,0x05,,Word,0x1B5C,1.710 V,1.71
+VOUT_MODE,0x20,0x06,,Byte,0x14,EXP =-12,
+FAULT_RESPONSES,0xE9,0x06,,Block,0x000000000000000000,Retry Time: 0 msec| Max Volt Glitch Time: 0.0 msec| Max Other Glitch Time: 0 msec| VOUT_OV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| VOUT_UV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_OC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_UC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| OT: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| TON_MAX: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A,
+IOUT_CAL_GAIN,0x38,0x06,,Word,0xD280,10.0000 mohm,10
+IOUT_CAL_OFFSET,0x39,0x06,,Word,0x8000,0.000000 A,0
+IOUT_OC_FAULT_LIMIT,0x46,0x06,,Word,0x8000,0.000 A,0
+IOUT_OC_WARN_LIMIT,0x4A,0x06,,Word,0x8000,0.000 A,0
+IOUT_UC_FAULT_LIMIT,0x4B,0x06,,Word,0x8000,0.000 A,0
+LOGGED_PAGE_PEAKS,0xED,0x06,,Block,0x00B3340080,"Voltage: 3.294 V, Current: 0.00 A, Temp: 0 C",
+MARGIN_CONFIG,0xF5,0x06,,Byte,0x00,"Mode: Disabled; Increase Duty Cycle decreases Voltage; Ignore Faults: False; PWM Pin: ID 0, # 10 FPWM1_GPIO5",
+MFR_STATUS,0xF3,0x06,,Block,0x00000080,INVALID_LOGS,
+ON_OFF_CONFIG,0x02,0x06,,Byte,0x00,Mode: Always Converting,
+OPERATION,0x01,0x06,,Byte,0x00,Unit: ImmediateOff; Margin: None,
+OT_FAULT_LIMIT,0x4F,0x06,,Word,0xF3FC,255 C,255
+OT_WARN_LIMIT,0x51,0x06,,Word,0xF3FC,255 C,255
+POWER_GOOD_OFF,0x5F,0x06,,Word,0x3229,3.135 V,3.135
+POWER_GOOD_ON,0x5E,0x06,,Word,0x3337,3.201 V,3.201
+READ_IOUT,0x8C,0x06,,Word,0x8000,0.00 A,0
+READ_RAIL_STATE,0xB9,0x06,,Block,0x05,REGULATION,
+READ_TEMPERATURE_2,0x8E,0x06,,Word,0xDBCC,30 C,30.375
+READ_VOUT,0x8B,0x06,,Word,0x3487,3.283 V,3.283
+SEQ_CONFIG,0xF6,0x06,,Block,0x1600000000000000000E000C03BC0000,"Rail On Dep: Rail #2,3,4 | GPI On Dep: <None> | GPO On Dep: <None> | Rail Off Dep: Rail #3,4 | GPI Off Dep: <None> | GPO Off Dep: <None> | Fault Dep: Rail #3,4,5,6,8,9,10 | Enable: Pin 12 FPWM3_GPIO7 ActiveHigh ActivelyDrivenOutput; Seq On Timeout: 0 / Wait Indefinitely; Seq Off Timeout: 0 / Wait Indefinitely",
+STATUS_IOUT,0x7B,0x06,,Byte,0x00,<EMPTY>,
+STATUS_TEMPERATURE,0x7D,0x06,,Byte,0x00,<EMPTY>,
+STATUS_VOUT,0x7A,0x06,,Byte,0x00,<EMPTY>,
+TEMPERATURE_CAL_GAIN,0xE4,0x06,,Word,0xEB20,100.0 C/V,100
+TEMPERATURE_CAL_OFFSET,0xE5,0x06,,Word,0x8000,0.00 C,0
+TOFF_DELAY,0x64,0x06,,Word,0x8000,0.0 ms,0
+TOFF_MAX_WARN_LIMIT,0x66,0x06,,Word,0x7FFF,<No Limit>,
+TON_DELAY,0x60,0x06,,Word,0xEB20,100.0 ms,100
+TON_MAX_FAULT_LIMIT,0x62,0x06,,Word,0x8000,<No Limit>,0
+VOUT_CAL_MONITOR,0xD1,0x06,,Word,0x0000,0.000 V,0
+VOUT_COMMAND,0x21,0x06,,Word,0x34CD,3.300 V,3.3
+VOUT_MARGIN_HIGH,0x25,0x06,,Word,0x3662,3.399 V,3.399
+VOUT_MARGIN_LOW,0x26,0x06,,Word,0x3337,3.201 V,3.201
+VOUT_OV_FAULT_LIMIT,0x40,0x06,,Word,0x387F,3.531 V,3.531
+VOUT_OV_WARN_LIMIT,0x42,0x06,,Word,0x3771,3.465 V,3.465
+VOUT_SCALE_MONITOR,0x2A,0x06,,Word,0xABA4,0.455 ,0.455
+VOUT_UV_FAULT_LIMIT,0x44,0x06,,Word,0x311B,3.069 V,3.069
+VOUT_UV_WARN_LIMIT,0x43,0x06,,Word,0x3229,3.135 V,3.135
+VOUT_MODE,0x20,0x07,,Byte,0x14,EXP =-12,
+FAULT_RESPONSES,0xE9,0x07,,Block,0x000000000000000000,Retry Time: 0 msec| Max Volt Glitch Time: 0.0 msec| Max Other Glitch Time: 0 msec| VOUT_OV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| VOUT_UV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_OC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_UC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| OT: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| TON_MAX: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A,
+IOUT_CAL_GAIN,0x38,0x07,,Word,0xD280,10.0000 mohm,10
+IOUT_CAL_OFFSET,0x39,0x07,,Word,0x8000,0.000000 A,0
+IOUT_OC_FAULT_LIMIT,0x46,0x07,,Word,0x8000,0.000 A,0
+IOUT_OC_WARN_LIMIT,0x4A,0x07,,Word,0x8000,0.000 A,0
+IOUT_UC_FAULT_LIMIT,0x4B,0x07,,Word,0x8000,0.000 A,0
+LOGGED_PAGE_PEAKS,0xED,0x07,,Block,0x00EA340080,"Voltage: 3.307 V, Current: 0.00 A, Temp: 0 C",
+MARGIN_CONFIG,0xF5,0x07,,Byte,0x00,"Mode: Disabled; Increase Duty Cycle decreases Voltage; Ignore Faults: False; PWM Pin: ID 0, # 10 FPWM1_GPIO5",
+MFR_STATUS,0xF3,0x07,,Block,0x00000080,INVALID_LOGS,
+ON_OFF_CONFIG,0x02,0x07,,Byte,0x00,Mode: Always Converting,
+OPERATION,0x01,0x07,,Byte,0x00,Unit: ImmediateOff; Margin: None,
+OT_FAULT_LIMIT,0x4F,0x07,,Word,0xF3FC,255 C,255
+OT_WARN_LIMIT,0x51,0x07,,Word,0xF3FC,255 C,255
+POWER_GOOD_OFF,0x5F,0x07,,Word,0x3229,3.135 V,3.135
+POWER_GOOD_ON,0x5E,0x07,,Word,0x3337,3.201 V,3.201
+READ_IOUT,0x8C,0x07,,Word,0x8000,0.00 A,0
+READ_RAIL_STATE,0xB9,0x07,,Block,0x05,REGULATION,
+READ_TEMPERATURE_2,0x8E,0x07,,Word,0xDBCB,30 C,30.34375
+READ_VOUT,0x8B,0x07,,Word,0x34C9,3.299 V,3.299
+SEQ_CONFIG,0xF6,0x07,,Block,0x1E0000000000000000700070037C0000,"Rail On Dep: Rail #5,6,7 | GPI On Dep: <None> | GPO On Dep: <None> | Rail Off Dep: Rail #5,6,7 | GPI Off Dep: <None> | GPO Off Dep: <None> | Fault Dep: Rail #3,4,5,6,7,9,10 | Enable: Pin 13 FPWM4_GPIO8 ActiveHigh ActivelyDrivenOutput; Seq On Timeout: 0 / Wait Indefinitely; Seq Off Timeout: 0 / Wait Indefinitely",
+STATUS_IOUT,0x7B,0x07,,Byte,0x00,<EMPTY>,
+STATUS_TEMPERATURE,0x7D,0x07,,Byte,0x00,<EMPTY>,
+STATUS_VOUT,0x7A,0x07,,Byte,0x00,<EMPTY>,
+TEMPERATURE_CAL_GAIN,0xE4,0x07,,Word,0xEB20,100.0 C/V,100
+TEMPERATURE_CAL_OFFSET,0xE5,0x07,,Word,0x8000,0.00 C,0
+TOFF_DELAY,0x64,0x07,,Word,0x8000,0.0 ms,0
+TOFF_MAX_WARN_LIMIT,0x66,0x07,,Word,0x7FFF,<No Limit>,
+TON_DELAY,0x60,0x07,,Word,0xEB20,100.0 ms,100
+TON_MAX_FAULT_LIMIT,0x62,0x07,,Word,0x8000,<No Limit>,0
+VOUT_CAL_MONITOR,0xD1,0x07,,Word,0x0000,0.000 V,0
+VOUT_COMMAND,0x21,0x07,,Word,0x34CD,3.300 V,3.3
+VOUT_MARGIN_HIGH,0x25,0x07,,Word,0x3662,3.399 V,3.399
+VOUT_MARGIN_LOW,0x26,0x07,,Word,0x3337,3.201 V,3.201
+VOUT_OV_FAULT_LIMIT,0x40,0x07,,Word,0x387F,3.531 V,3.531
+VOUT_OV_WARN_LIMIT,0x42,0x07,,Word,0x3771,3.465 V,3.465
+VOUT_SCALE_MONITOR,0x2A,0x07,,Word,0xABA4,0.455 ,0.455
+VOUT_UV_FAULT_LIMIT,0x44,0x07,,Word,0x311B,3.069 V,3.069
+VOUT_UV_WARN_LIMIT,0x43,0x07,,Word,0x3229,3.135 V,3.135
+VOUT_MODE,0x20,0x08,,Byte,0x14,EXP =-12,
+FAULT_RESPONSES,0xE9,0x08,,Block,0x000000000000000000,Retry Time: 0 msec| Max Volt Glitch Time: 0.0 msec| Max Other Glitch Time: 0 msec| VOUT_OV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| VOUT_UV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_OC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_UC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| OT: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| TON_MAX: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A,
+IOUT_CAL_GAIN,0x38,0x08,,Word,0xD280,10.0000 mohm,10
+IOUT_CAL_OFFSET,0x39,0x08,,Word,0x8000,0.000000 A,0
+IOUT_OC_FAULT_LIMIT,0x46,0x08,,Word,0x8000,0.000 A,0
+IOUT_OC_WARN_LIMIT,0x4A,0x08,,Word,0x8000,0.000 A,0
+IOUT_UC_FAULT_LIMIT,0x4B,0x08,,Word,0x8000,0.000 A,0
+LOGGED_PAGE_PEAKS,0xED,0x08,,Block,0x008E340080,"Voltage: 3.285 V, Current: 0.00 A, Temp: 0 C",
+MARGIN_CONFIG,0xF5,0x08,,Byte,0x00,"Mode: Disabled; Increase Duty Cycle decreases Voltage; Ignore Faults: False; PWM Pin: ID 0, # 10 FPWM1_GPIO5",
+MFR_STATUS,0xF3,0x08,,Block,0x00000080,INVALID_LOGS,
+ON_OFF_CONFIG,0x02,0x08,,Byte,0x00,Mode: Always Converting,
+OPERATION,0x01,0x08,,Byte,0x00,Unit: ImmediateOff; Margin: None,
+OT_FAULT_LIMIT,0x4F,0x08,,Word,0xF3FC,255 C,255
+OT_WARN_LIMIT,0x51,0x08,,Word,0xF3FC,255 C,255
+POWER_GOOD_OFF,0x5F,0x08,,Word,0x3229,3.135 V,3.135
+POWER_GOOD_ON,0x5E,0x08,,Word,0x3337,3.201 V,3.201
+READ_IOUT,0x8C,0x08,,Word,0x8000,0.00 A,0
+READ_RAIL_STATE,0xB9,0x08,,Block,0x05,REGULATION,
+READ_TEMPERATURE_2,0x8E,0x08,,Word,0xDBCB,30 C,30.34375
+READ_VOUT,0x8B,0x08,,Word,0x345B,3.272 V,3.272
+SEQ_CONFIG,0xF6,0x08,,Block,0x26000000000000000070007002FC0000,"Rail On Dep: Rail #5,6,7 | GPI On Dep: <None> | GPO On Dep: <None> | Rail Off Dep: Rail #5,6,7 | GPI Off Dep: <None> | GPO Off Dep: <None> | Fault Dep: Rail #3,4,5,6,7,8,10 | Enable: Pin 14 FPWM5_GPIO9 ActiveHigh ActivelyDrivenOutput; Seq On Timeout: 0 / Wait Indefinitely; Seq Off Timeout: 0 / Wait Indefinitely",
+STATUS_IOUT,0x7B,0x08,,Byte,0x00,<EMPTY>,
+STATUS_TEMPERATURE,0x7D,0x08,,Byte,0x00,<EMPTY>,
+STATUS_VOUT,0x7A,0x08,,Byte,0x00,<EMPTY>,
+TEMPERATURE_CAL_GAIN,0xE4,0x08,,Word,0xEB20,100.0 C/V,100
+TEMPERATURE_CAL_OFFSET,0xE5,0x08,,Word,0x8000,0.00 C,0
+TOFF_DELAY,0x64,0x08,,Word,0x8000,0.0 ms,0
+TOFF_MAX_WARN_LIMIT,0x66,0x08,,Word,0x7FFF,<No Limit>,
+TON_DELAY,0x60,0x08,,Word,0xEB20,100.0 ms,100
+TON_MAX_FAULT_LIMIT,0x62,0x08,,Word,0x8000,<No Limit>,0
+VOUT_CAL_MONITOR,0xD1,0x08,,Word,0x0000,0.000 V,0
+VOUT_COMMAND,0x21,0x08,,Word,0x34CD,3.300 V,3.3
+VOUT_MARGIN_HIGH,0x25,0x08,,Word,0x3662,3.399 V,3.399
+VOUT_MARGIN_LOW,0x26,0x08,,Word,0x3337,3.201 V,3.201
+VOUT_OV_FAULT_LIMIT,0x40,0x08,,Word,0x387F,3.531 V,3.531
+VOUT_OV_WARN_LIMIT,0x42,0x08,,Word,0x3771,3.465 V,3.465
+VOUT_SCALE_MONITOR,0x2A,0x08,,Word,0xABA4,0.455 ,0.455
+VOUT_UV_FAULT_LIMIT,0x44,0x08,,Word,0x311B,3.069 V,3.069
+VOUT_UV_WARN_LIMIT,0x43,0x08,,Word,0x3229,3.135 V,3.135
+VOUT_MODE,0x20,0x09,,Byte,0x12,EXP =-14,
+FAULT_RESPONSES,0xE9,0x09,,Block,0x000000000000000000,Retry Time: 0 msec| Max Volt Glitch Time: 0.0 msec| Max Other Glitch Time: 0 msec| VOUT_OV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| VOUT_UV: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_OC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| IOUT_UC: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| OT: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| TON_MAX: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A,
+IOUT_CAL_GAIN,0x38,0x09,,Word,0xD280,10.0000 mohm,10
+IOUT_CAL_OFFSET,0x39,0x09,,Word,0x8000,0.000000 A,0
+IOUT_OC_FAULT_LIMIT,0x46,0x09,,Word,0x8000,0.000 A,0
+IOUT_OC_WARN_LIMIT,0x4A,0x09,,Word,0x8000,0.000 A,0
+IOUT_UC_FAULT_LIMIT,0x4B,0x09,,Word,0x8000,0.000 A,0
+LOGGED_PAGE_PEAKS,0xED,0x09,,Block,0x001C540080,"Voltage: 1.314 V, Current: 0.00 A, Temp: 0 C",
+MARGIN_CONFIG,0xF5,0x09,,Byte,0x00,"Mode: Disabled; Increase Duty Cycle decreases Voltage; Ignore Faults: False; PWM Pin: ID 0, # 10 FPWM1_GPIO5",
+MFR_STATUS,0xF3,0x09,,Block,0x00000080,INVALID_LOGS,
+ON_OFF_CONFIG,0x02,0x09,,Byte,0x00,Mode: Always Converting,
+OPERATION,0x01,0x09,,Byte,0x00,Unit: ImmediateOff; Margin: None,
+OT_FAULT_LIMIT,0x4F,0x09,,Word,0xF3FC,255 C,255
+OT_WARN_LIMIT,0x51,0x09,,Word,0xF3FC,255 C,255
+POWER_GOOD_OFF,0x5F,0x09,,Word,0x4F0A,1.235 V,1.235
+POWER_GOOD_ON,0x5E,0x09,,Word,0x50B4,1.261 V,1.261
+READ_IOUT,0x8C,0x09,,Word,0x8000,0.00 A,0
+READ_RAIL_STATE,0xB9,0x09,,Block,0x05,REGULATION,
+READ_TEMPERATURE_2,0x8E,0x09,,Word,0xDBCA,30 C,30.3125
+READ_VOUT,0x8B,0x09,,Word,0x53CC,1.309 V,1.309
+SEQ_CONFIG,0xF6,0x09,,Block,0x2E000000000000000180018001FC0000,"Rail On Dep: Rail #8,9 | GPI On Dep: <None> | GPO On Dep: <None> | Rail Off Dep: Rail #8,9 | GPI Off Dep: <None> | GPO Off Dep: <None> | Fault Dep: Rail #3,4,5,6,7,8,9 | Enable: Pin 15 FPWM6_GPIO10 ActiveHigh ActivelyDrivenOutput; Seq On Timeout: 0 / Wait Indefinitely; Seq Off Timeout: 0 / Wait Indefinitely",
+STATUS_IOUT,0x7B,0x09,,Byte,0x00,<EMPTY>,
+STATUS_TEMPERATURE,0x7D,0x09,,Byte,0x00,<EMPTY>,
+STATUS_VOUT,0x7A,0x09,,Byte,0x00,<EMPTY>,
+TEMPERATURE_CAL_GAIN,0xE4,0x09,,Word,0xEB20,100.0 C/V,100
+TEMPERATURE_CAL_OFFSET,0xE5,0x09,,Word,0x8000,0.00 C,0
+TOFF_DELAY,0x64,0x09,,Word,0x8000,0.0 ms,0
+TOFF_MAX_WARN_LIMIT,0x66,0x09,,Word,0x7FFF,<No Limit>,
+TON_DELAY,0x60,0x09,,Word,0xEB20,100.0 ms,100
+TON_MAX_FAULT_LIMIT,0x62,0x09,,Word,0x8000,<No Limit>,0
+VOUT_CAL_MONITOR,0xD1,0x09,,Word,0x0000,0.000 V,0
+VOUT_COMMAND,0x21,0x09,,Word,0x5333,1.300 V,1.3
+VOUT_MARGIN_HIGH,0x25,0x09,,Word,0x55B2,1.339 V,1.339
+VOUT_MARGIN_LOW,0x26,0x09,,Word,0x50B4,1.261 V,1.261
+VOUT_OV_FAULT_LIMIT,0x40,0x09,,Word,0x5906,1.391 V,1.391
+VOUT_OV_WARN_LIMIT,0x42,0x09,,Word,0x575C,1.365 V,1.365
+VOUT_SCALE_MONITOR,0x2A,0x09,,Word,0xBA00,1.000 ,1
+VOUT_UV_FAULT_LIMIT,0x44,0x09,,Word,0x4D60,1.209 V,1.209
+VOUT_UV_WARN_LIMIT,0x43,0x09,,Word,0x4F0A,1.235 V,1.235
