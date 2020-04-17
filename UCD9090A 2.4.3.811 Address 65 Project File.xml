@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Version>1</Version>
-  <Timestamp>2020-04-09T09:59:53.7509609-04:00</Timestamp>
+  <Timestamp>2020-04-15T14:25:11.3425376-04:00</Timestamp>
   <Creator>Texas Instruments Fusion Digital Power Designer v7.1.1.0 [2018-09-17]</Creator>
   <Devices>
     <Device>
@@ -1010,8 +1010,8 @@
           <ID>GPIO_CONFIG_0</ID>
           <Code>251</Code>
           <IDAndCode>GPIO_CONFIG_0 [MFR 43,0xFB]</IDAndCode>
-          <ValueText>Enable: False; Out_Enable: False; Out_Value: True; Status: True</ValueText>
-          <ValueEncoded xsi:type="PMBusByte" Hex="0x0C" />
+          <ValueText>Enable: False; Out_Enable: False; Out_Value: False; Status: True</ValueText>
+          <ValueEncoded xsi:type="PMBusByte" Hex="0x08" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>255</Page>
@@ -1322,8 +1322,8 @@
           <ID>GPI_CONFIG</ID>
           <Code>249</Code>
           <IDAndCode>GPI_CONFIG [MFR 41,0xF9]</IDAndCode>
-          <ValueText>Inputs: Pin 21 GPIO14 ActiveLow;Pin 24 GPIO15 ActiveLow;Pin 25 GPIO16 ActiveLow;Pin 26 GPIO17 ActiveLow;Pin 22 GPI1_PWM1 ActiveLow;Pin 23 GPI2_PWM2 ActiveHigh;Unassigned;Unassigned;; Fault Responses: Max Glitch Time: 0.0 ms| Fault Response: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| Page Mask: ; Fault Pin Config: Max Glitch Time: 0.0 ms| Fault Response: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| Page Mask for Output: | Page Mask for Responses: </ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x51A1A9B1414D00000000000000000000000000000000000000000000000000" />
+          <ValueText>Inputs: Pin 21 GPIO14 ActiveHigh;Pin 24 GPIO15 ActiveLow;Pin 25 GPIO16 ActiveLow;Pin 26 GPIO17 ActiveLow;Pin 22 GPI1_PWM1 ActiveHigh;Pin 23 GPI2_PWM2 ActiveHigh;Unassigned;Unassigned;; Fault Responses: Max Glitch Time: 0.0 ms| Fault Response: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| Page Mask: ; Fault Pin Config: Max Glitch Time: 0.0 ms| Fault Response: Resequence: Disabled; Glitch filter: Disabled; Response: Ignore; Restart: N/A| Page Mask for Output: | Page Mask for Responses: </ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x55A1A9B1454D00000000000000000000000000000000000000000000000000" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Configuration</ParameterCategory>
           <Page>255</Page>
@@ -1370,8 +1370,8 @@
           <ID>GPO_CONFIG_4</ID>
           <Code>248</Code>
           <IDAndCode>GPO_CONFIG_4 [MFR 40,0xF8]</IDAndCode>
-          <ValueText>Unassigned; No Mask</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x000000000000000000000000000000000000000000" />
+          <ValueText>Pin 29 TDI_GPIO20 ActiveLow OpenDrainOutput; INPUT_X'</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x738065000000002000000020000000000000000000" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Configuration</ParameterCategory>
           <Page>255</Page>
@@ -1454,8 +1454,8 @@
           <ID>LOGGED_COMMON_PEAKS</ID>
           <Code>238</Code>
           <IDAndCode>LOGGED_COMMON_PEAKS [MFR 30,0xEE]</IDAndCode>
-          <ValueText>Temp: 30 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusByte" Hex="0x1E" />
+          <ValueText>Temp: 31 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusByte" Hex="0x1F" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>255</Page>
@@ -1538,8 +1538,8 @@
           <ID>MFR_REVISION</ID>
           <Code>155</Code>
           <IDAndCode>MFR_REVISION [0x9B]</IDAndCode>
-          <ValueText>1.0</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x312E30" />
+          <ValueText>1.1</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x312E31" />
           <ParameterType>String</ParameterType>
           <ParameterCategory>Manufacturer</ParameterCategory>
           <Page>255</Page>
@@ -1622,9 +1622,9 @@
           <ID>READ_TEMPERATURE_1</ID>
           <Code>141</Code>
           <IDAndCode>READ_TEMPERATURE_1 [0x8D]</IDAndCode>
-          <ValueText>30 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBCA" />
-          <ValueNumeric>30.3125</ValueNumeric>
+          <ValueText>32 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBF5" />
+          <ValueNumeric>31.65625</ValueNumeric>
           <ParameterType>Temperature</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>255</Page>
@@ -1648,8 +1648,8 @@
           <ID>REAL_TIME_CLOCK</ID>
           <Code>215</Code>
           <IDAndCode>RUN_TIME_CLOCK [MFR 07,0xD7]</IDAndCode>
-          <ValueText>0 Days, 11:11:51.480</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x02671AB800000000" />
+          <ValueText>0 Days, 00:03:33.413</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x000341A500000000" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Configuration</ParameterCategory>
           <Page>255</Page>
@@ -1709,8 +1709,8 @@
           <ID>STATUS_WORD</ID>
           <Code>121</Code>
           <IDAndCode>STATUS_WORD [0x79]</IDAndCode>
-          <ValueText>NONE_OF_ABOVE,MFR,VOUT</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0x9001" />
+          <ValueText>NONE_OF_ABOVE,VOUT</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0x8001" />
           <ParameterType>Bitmask</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>255</Page>
@@ -1721,7 +1721,7 @@
           <ID>SYSTEM_RESET_CONFIG</ID>
           <Code>210</Code>
           <IDAndCode>SYSTEM_RESET_CONFIG [MFR 02,0xD2]</IDAndCode>
-          <ValueText>Enabled; Reset Pin: 11, Active Low, Open Drain; De-assert When Power-Good: yes; Assert when NOT Power-Good: yes; Assert when Watchdog Timeout: no; Delay Time: 7 msec; Rails: &lt;None&gt;Pulse Time: 0 msec; GPI Tracking: Enable = True; GPI Number = 6; GPI Tracking Release Delay = 200 msec; Use Delay Time When Watchdog Timeout</ValueText>
+          <ValueText>Enabled; Reset Pin: Pin 28 TDO_GPIO19, Active Low, Open Drain; De-assert When Power-Good: yes; Assert when NOT Power-Good: yes; Assert when Watchdog Timeout: no; Delay Time: 7 msec; Rails: &lt;None&gt;Pulse Time: 0 msec; GPI Tracking: Enable = True; GPI Number = 6; GPI Tracking Release Delay = 200 msec; Use Delay Time When Watchdog Timeout</ValueText>
           <ValueEncoded xsi:type="PMBusBlock" Hex="0x000020070006D0595B" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Configuration</ParameterCategory>
@@ -1834,8 +1834,8 @@
           <ID>LOGGED_PAGE_PEAKS</ID>
           <Code>237</Code>
           <IDAndCode>LOGGED_PAGE_PEAKS [MFR 29,0xED,Rail #1]</IDAndCode>
-          <ValueText>Voltage: 1.796 V, Current: 0.00 A, Temp: 0 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x007C390080" />
+          <ValueText>Voltage: 1.802 V, Current: 0.00 A, Temp: 0 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00A8390080" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>0</Page>
@@ -1858,8 +1858,8 @@
           <ID>MFR_STATUS</ID>
           <Code>243</Code>
           <IDAndCode>MFR_STATUS [MFR 35,0xF3,Rail #1]</IDAndCode>
-          <ValueText>INVALID_LOGS,STORE_DEFAULT_ALL_DONE</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000280" />
+          <ValueText>STORE_DEFAULT_ALL_DONE</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000200" />
           <ParameterType>Bitmask</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>0</Page>
@@ -1971,9 +1971,9 @@
           <ID>READ_TEMPERATURE_2</ID>
           <Code>142</Code>
           <IDAndCode>READ_TEMPERATURE_2 [0x8E,Rail #1]</IDAndCode>
-          <ValueText>30 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBCA" />
-          <ValueNumeric>30.3125</ValueNumeric>
+          <ValueText>32 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBF5" />
+          <ValueNumeric>31.65625</ValueNumeric>
           <ParameterType>Temperature</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>0</Page>
@@ -1984,9 +1984,9 @@
           <ID>READ_VOUT</ID>
           <Code>139</Code>
           <IDAndCode>READ_VOUT [0x8B,Rail #1]</IDAndCode>
-          <ValueText>1.788 V</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0x3936" />
-          <ValueNumeric>1.788</ValueNumeric>
+          <ValueText>1.790 V</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0x3944" />
+          <ValueNumeric>1.79</ValueNumeric>
           <ParameterType>Voltage</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>0</Page>
@@ -2328,8 +2328,8 @@
           <ID>LOGGED_PAGE_PEAKS</ID>
           <Code>237</Code>
           <IDAndCode>LOGGED_PAGE_PEAKS [MFR 29,0xED,Rail #2]</IDAndCode>
-          <ValueText>Voltage: 3.751 V, Current: 0.00 A, Temp: 0 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00053C0080" />
+          <ValueText>Voltage: 3.786 V, Current: 0.00 A, Temp: 0 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00943C0080" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>1</Page>
@@ -2352,8 +2352,8 @@
           <ID>MFR_STATUS</ID>
           <Code>243</Code>
           <IDAndCode>MFR_STATUS [MFR 35,0xF3,Rail #2]</IDAndCode>
-          <ValueText>INVALID_LOGS</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000080" />
+          <ValueText>&lt;EMPTY&gt;</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000000" />
           <ParameterType>Bitmask</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>1</Page>
@@ -2465,9 +2465,9 @@
           <ID>READ_TEMPERATURE_2</ID>
           <Code>142</Code>
           <IDAndCode>READ_TEMPERATURE_2 [0x8E,Rail #2]</IDAndCode>
-          <ValueText>30 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBCB" />
-          <ValueNumeric>30.34375</ValueNumeric>
+          <ValueText>32 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBF5" />
+          <ValueNumeric>31.65625</ValueNumeric>
           <ParameterType>Temperature</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>1</Page>
@@ -2478,9 +2478,9 @@
           <ID>READ_VOUT</ID>
           <Code>139</Code>
           <IDAndCode>READ_VOUT [0x8B,Rail #2]</IDAndCode>
-          <ValueText>3.744 V</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0x3BE9" />
-          <ValueNumeric>3.744</ValueNumeric>
+          <ValueText>3.747 V</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0x3BF4" />
+          <ValueNumeric>3.747</ValueNumeric>
           <ParameterType>Voltage</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>1</Page>
@@ -2823,7 +2823,7 @@
           <Code>237</Code>
           <IDAndCode>LOGGED_PAGE_PEAKS [MFR 29,0xED,Rail #3]</IDAndCode>
           <ValueText>Voltage: 1.007 V, Current: 0.00 A, Temp: 0 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x006C400080" />
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x0074400080" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>2</Page>
@@ -2846,8 +2846,8 @@
           <ID>MFR_STATUS</ID>
           <Code>243</Code>
           <IDAndCode>MFR_STATUS [MFR 35,0xF3,Rail #3]</IDAndCode>
-          <ValueText>INVALID_LOGS</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000080" />
+          <ValueText>&lt;EMPTY&gt;</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000000" />
           <ParameterType>Bitmask</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>2</Page>
@@ -2959,9 +2959,9 @@
           <ID>READ_TEMPERATURE_2</ID>
           <Code>142</Code>
           <IDAndCode>READ_TEMPERATURE_2 [0x8E,Rail #3]</IDAndCode>
-          <ValueText>30 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBCB" />
-          <ValueNumeric>30.34375</ValueNumeric>
+          <ValueText>32 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBF3" />
+          <ValueNumeric>31.59375</ValueNumeric>
           <ParameterType>Temperature</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>2</Page>
@@ -2972,9 +2972,9 @@
           <ID>READ_VOUT</ID>
           <Code>139</Code>
           <IDAndCode>READ_VOUT [0x8B,Rail #3]</IDAndCode>
-          <ValueText>1.003 V</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0x4030" />
-          <ValueNumeric>1.003</ValueNumeric>
+          <ValueText>1.005 V</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0x4058" />
+          <ValueNumeric>1.005</ValueNumeric>
           <ParameterType>Voltage</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>2</Page>
@@ -3316,8 +3316,8 @@
           <ID>LOGGED_PAGE_PEAKS</ID>
           <Code>237</Code>
           <IDAndCode>LOGGED_PAGE_PEAKS [MFR 29,0xED,Rail #4]</IDAndCode>
-          <ValueText>Voltage: 1.006 V, Current: 0.00 A, Temp: 0 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x0060400080" />
+          <ValueText>Voltage: 1.007 V, Current: 0.00 A, Temp: 0 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x006C400080" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>3</Page>
@@ -3340,8 +3340,8 @@
           <ID>MFR_STATUS</ID>
           <Code>243</Code>
           <IDAndCode>MFR_STATUS [MFR 35,0xF3,Rail #4]</IDAndCode>
-          <ValueText>INVALID_LOGS</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000080" />
+          <ValueText>&lt;EMPTY&gt;</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000000" />
           <ParameterType>Bitmask</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>3</Page>
@@ -3453,9 +3453,9 @@
           <ID>READ_TEMPERATURE_2</ID>
           <Code>142</Code>
           <IDAndCode>READ_TEMPERATURE_2 [0x8E,Rail #4]</IDAndCode>
-          <ValueText>30 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBCB" />
-          <ValueNumeric>30.34375</ValueNumeric>
+          <ValueText>32 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBF3" />
+          <ValueNumeric>31.59375</ValueNumeric>
           <ParameterType>Temperature</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>3</Page>
@@ -3466,9 +3466,9 @@
           <ID>READ_VOUT</ID>
           <Code>139</Code>
           <IDAndCode>READ_VOUT [0x8B,Rail #4]</IDAndCode>
-          <ValueText>1.005 V</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0x404C" />
-          <ValueNumeric>1.005</ValueNumeric>
+          <ValueText>1.002 V</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0x401C" />
+          <ValueNumeric>1.002</ValueNumeric>
           <ParameterType>Voltage</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>3</Page>
@@ -3810,8 +3810,8 @@
           <ID>LOGGED_PAGE_PEAKS</ID>
           <Code>237</Code>
           <IDAndCode>LOGGED_PAGE_PEAKS [MFR 29,0xED,Rail #5]</IDAndCode>
-          <ValueText>Voltage: 1.205 V, Current: 0.00 A, Temp: 0 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x001C4D0080" />
+          <ValueText>Voltage: 1.206 V, Current: 0.00 A, Temp: 0 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00304D0080" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>4</Page>
@@ -3834,8 +3834,8 @@
           <ID>MFR_STATUS</ID>
           <Code>243</Code>
           <IDAndCode>MFR_STATUS [MFR 35,0xF3,Rail #5]</IDAndCode>
-          <ValueText>INVALID_LOGS</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000080" />
+          <ValueText>&lt;EMPTY&gt;</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000000" />
           <ParameterType>Bitmask</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>4</Page>
@@ -3947,9 +3947,9 @@
           <ID>READ_TEMPERATURE_2</ID>
           <Code>142</Code>
           <IDAndCode>READ_TEMPERATURE_2 [0x8E,Rail #5]</IDAndCode>
-          <ValueText>30 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBCC" />
-          <ValueNumeric>30.375</ValueNumeric>
+          <ValueText>32 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBF4" />
+          <ValueNumeric>31.625</ValueNumeric>
           <ParameterType>Temperature</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>4</Page>
@@ -3960,9 +3960,9 @@
           <ID>READ_VOUT</ID>
           <Code>139</Code>
           <IDAndCode>READ_VOUT [0x8B,Rail #5]</IDAndCode>
-          <ValueText>1.201 V</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0x4CE0" />
-          <ValueNumeric>1.201</ValueNumeric>
+          <ValueText>1.202 V</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0x4CF4" />
+          <ValueNumeric>1.202</ValueNumeric>
           <ParameterType>Voltage</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>4</Page>
@@ -4305,7 +4305,7 @@
           <Code>237</Code>
           <IDAndCode>LOGGED_PAGE_PEAKS [MFR 29,0xED,Rail #6]</IDAndCode>
           <ValueText>Voltage: 1.799 V, Current: 0.00 A, Temp: 0 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00C81C0080" />
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00CA1C0080" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>5</Page>
@@ -4328,8 +4328,8 @@
           <ID>MFR_STATUS</ID>
           <Code>243</Code>
           <IDAndCode>MFR_STATUS [MFR 35,0xF3,Rail #6]</IDAndCode>
-          <ValueText>INVALID_LOGS</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000080" />
+          <ValueText>&lt;EMPTY&gt;</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000000" />
           <ParameterType>Bitmask</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>5</Page>
@@ -4441,9 +4441,9 @@
           <ID>READ_TEMPERATURE_2</ID>
           <Code>142</Code>
           <IDAndCode>READ_TEMPERATURE_2 [0x8E,Rail #6]</IDAndCode>
-          <ValueText>30 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBCC" />
-          <ValueNumeric>30.375</ValueNumeric>
+          <ValueText>32 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBF5" />
+          <ValueNumeric>31.65625</ValueNumeric>
           <ParameterType>Temperature</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>5</Page>
@@ -4454,9 +4454,9 @@
           <ID>READ_VOUT</ID>
           <Code>139</Code>
           <IDAndCode>READ_VOUT [0x8B,Rail #6]</IDAndCode>
-          <ValueText>1.794 V</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0x1CB6" />
-          <ValueNumeric>1.794</ValueNumeric>
+          <ValueText>1.796 V</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0x1CBB" />
+          <ValueNumeric>1.796</ValueNumeric>
           <ParameterType>Voltage</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>5</Page>
@@ -4798,8 +4798,8 @@
           <ID>LOGGED_PAGE_PEAKS</ID>
           <Code>237</Code>
           <IDAndCode>LOGGED_PAGE_PEAKS [MFR 29,0xED,Rail #7]</IDAndCode>
-          <ValueText>Voltage: 3.294 V, Current: 0.00 A, Temp: 0 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00B3340080" />
+          <ValueText>Voltage: 3.293 V, Current: 0.00 A, Temp: 0 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00AF340080" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>6</Page>
@@ -4822,8 +4822,8 @@
           <ID>MFR_STATUS</ID>
           <Code>243</Code>
           <IDAndCode>MFR_STATUS [MFR 35,0xF3,Rail #7]</IDAndCode>
-          <ValueText>INVALID_LOGS</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000080" />
+          <ValueText>&lt;EMPTY&gt;</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000000" />
           <ParameterType>Bitmask</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>6</Page>
@@ -4935,9 +4935,9 @@
           <ID>READ_TEMPERATURE_2</ID>
           <Code>142</Code>
           <IDAndCode>READ_TEMPERATURE_2 [0x8E,Rail #7]</IDAndCode>
-          <ValueText>30 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBCC" />
-          <ValueNumeric>30.375</ValueNumeric>
+          <ValueText>32 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBF5" />
+          <ValueNumeric>31.65625</ValueNumeric>
           <ParameterType>Temperature</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>6</Page>
@@ -5292,8 +5292,8 @@
           <ID>LOGGED_PAGE_PEAKS</ID>
           <Code>237</Code>
           <IDAndCode>LOGGED_PAGE_PEAKS [MFR 29,0xED,Rail #8]</IDAndCode>
-          <ValueText>Voltage: 3.307 V, Current: 0.00 A, Temp: 0 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00EA340080" />
+          <ValueText>Voltage: 3.309 V, Current: 0.00 A, Temp: 0 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00F1340080" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>7</Page>
@@ -5316,8 +5316,8 @@
           <ID>MFR_STATUS</ID>
           <Code>243</Code>
           <IDAndCode>MFR_STATUS [MFR 35,0xF3,Rail #8]</IDAndCode>
-          <ValueText>INVALID_LOGS</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000080" />
+          <ValueText>&lt;EMPTY&gt;</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000000" />
           <ParameterType>Bitmask</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>7</Page>
@@ -5429,9 +5429,9 @@
           <ID>READ_TEMPERATURE_2</ID>
           <Code>142</Code>
           <IDAndCode>READ_TEMPERATURE_2 [0x8E,Rail #8]</IDAndCode>
-          <ValueText>30 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBCB" />
-          <ValueNumeric>30.34375</ValueNumeric>
+          <ValueText>32 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBF5" />
+          <ValueNumeric>31.65625</ValueNumeric>
           <ParameterType>Temperature</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>7</Page>
@@ -5786,8 +5786,8 @@
           <ID>LOGGED_PAGE_PEAKS</ID>
           <Code>237</Code>
           <IDAndCode>LOGGED_PAGE_PEAKS [MFR 29,0xED,Rail #9]</IDAndCode>
-          <ValueText>Voltage: 3.285 V, Current: 0.00 A, Temp: 0 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x008E340080" />
+          <ValueText>Voltage: 3.288 V, Current: 0.00 A, Temp: 0 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x009D340080" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>8</Page>
@@ -5810,8 +5810,8 @@
           <ID>MFR_STATUS</ID>
           <Code>243</Code>
           <IDAndCode>MFR_STATUS [MFR 35,0xF3,Rail #9]</IDAndCode>
-          <ValueText>INVALID_LOGS</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000080" />
+          <ValueText>&lt;EMPTY&gt;</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000000" />
           <ParameterType>Bitmask</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>8</Page>
@@ -5923,9 +5923,9 @@
           <ID>READ_TEMPERATURE_2</ID>
           <Code>142</Code>
           <IDAndCode>READ_TEMPERATURE_2 [0x8E,Rail #9]</IDAndCode>
-          <ValueText>30 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBCB" />
-          <ValueNumeric>30.34375</ValueNumeric>
+          <ValueText>32 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBF5" />
+          <ValueNumeric>31.65625</ValueNumeric>
           <ParameterType>Temperature</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>8</Page>
@@ -5936,9 +5936,9 @@
           <ID>READ_VOUT</ID>
           <Code>139</Code>
           <IDAndCode>READ_VOUT [0x8B,Rail #9]</IDAndCode>
-          <ValueText>3.272 V</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0x345B" />
-          <ValueNumeric>3.272</ValueNumeric>
+          <ValueText>3.275 V</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0x3466" />
+          <ValueNumeric>3.275</ValueNumeric>
           <ParameterType>Voltage</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>8</Page>
@@ -6280,8 +6280,8 @@
           <ID>LOGGED_PAGE_PEAKS</ID>
           <Code>237</Code>
           <IDAndCode>LOGGED_PAGE_PEAKS [MFR 29,0xED,Rail #10]</IDAndCode>
-          <ValueText>Voltage: 1.314 V, Current: 0.00 A, Temp: 0 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x001C540080" />
+          <ValueText>Voltage: 1.315 V, Current: 0.00 A, Temp: 0 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x0024540080" />
           <ParameterType>Custom</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>9</Page>
@@ -6304,8 +6304,8 @@
           <ID>MFR_STATUS</ID>
           <Code>243</Code>
           <IDAndCode>MFR_STATUS [MFR 35,0xF3,Rail #10]</IDAndCode>
-          <ValueText>INVALID_LOGS</ValueText>
-          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000080" />
+          <ValueText>&lt;EMPTY&gt;</ValueText>
+          <ValueEncoded xsi:type="PMBusBlock" Hex="0x00000000" />
           <ParameterType>Bitmask</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>9</Page>
@@ -6417,9 +6417,9 @@
           <ID>READ_TEMPERATURE_2</ID>
           <Code>142</Code>
           <IDAndCode>READ_TEMPERATURE_2 [0x8E,Rail #10]</IDAndCode>
-          <ValueText>30 °C</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBCA" />
-          <ValueNumeric>30.3125</ValueNumeric>
+          <ValueText>32 °C</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0xDBF5" />
+          <ValueNumeric>31.65625</ValueNumeric>
           <ParameterType>Temperature</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>9</Page>
@@ -6430,9 +6430,9 @@
           <ID>READ_VOUT</ID>
           <Code>139</Code>
           <IDAndCode>READ_VOUT [0x8B,Rail #10]</IDAndCode>
-          <ValueText>1.309 V</ValueText>
-          <ValueEncoded xsi:type="PMBusWord" Hex="0x53CC" />
-          <ValueNumeric>1.309</ValueNumeric>
+          <ValueText>1.311 V</ValueText>
+          <ValueEncoded xsi:type="PMBusWord" Hex="0x53E0" />
+          <ValueNumeric>1.311</ValueNumeric>
           <ParameterType>Voltage</ParameterType>
           <ParameterCategory>Status</ParameterCategory>
           <Page>9</Page>
